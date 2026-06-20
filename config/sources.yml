@@ -1,0 +1,51 @@
+rss_sources:
+
+  - name: CISA Cyber Advisories
+    url: https://www.cisa.gov/cybersecurity-advisories/all.xml
+    tier: 1
+    category: government_advisory
+
+  - name: CISA Known Exploited Vulnerabilities (KEV)
+    url: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
+    tier: 1
+    category: vulnerability_exploitation
+
+  - name: NIST NVD CVE Feed
+    url: https://nvd.nist.gov/feeds/json/cve/1.1/nvdcve-1.1-recent.json
+    tier: 1
+    category: vulnerability_database
+
+  - name: FBI IC3 Alerts
+    url: https://www.ic3.gov/CSA/RSS
+    tier: 1
+    category: cybercrime_intelligence
+
+  - name: US-CERT Alerts
+    url: https://us-cert.cisa.gov/ncas/alerts.xml
+    tier: 1
+    category: incident_response
+
+  - name: Microsoft Security Blog
+    url: https://www.microsoft.com/en-us/security/blog/feed/
+    tier: 1
+    category: vendor_advisory
+
+  - name: NSA Cybersecurity Advisories
+    url: https://media.defense.gov/website/feeds/nsa.xml
+    tier: 1
+    category: nation_state_intel
+
+  - name: MITRE ATT&CK Updates
+    url: https://attack.mitre.org/resources/updates.xml
+    tier: 1
+    category: attack_framework
+
+  - name: US-CERT Technical Alerts
+    url: https://www.cisa.gov/uscert/ncas/alerts.xml
+    tier: 1
+    category: technical_advisory
+
+  - name: Google Threat Intelligence
+    url: https://cloud.google.com/blog/topics/threat-intelligence/rss.xml
+    tier: 1
+    category: threat_research
